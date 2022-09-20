@@ -13,14 +13,10 @@ header, main, footer{
     margin: 10px;
 }
 .container{
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
 }
-.header__list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .header__list-link{
     font-family: 'Gilroy-Bold';
     font-size: 18px;
@@ -28,9 +24,8 @@ header, main, footer{
     color: #828282;
     transition: .8s;
 }
-.header__list-link:hover{
-    color: #070707;
-}
+
+
 .header__nav{
     position: relative;
     margin-bottom: 80px;
